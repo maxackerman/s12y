@@ -1,0 +1,26 @@
+{
+  "name": "s12y",
+  "version": "1.0.0",
+  "description": "A place to start",
+  "main": "index.js",
+  "scripts": {
+    "web": "npm run dev --workspace=web",
+    "studio":  "npm run start --workspace=studio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxackerman/s12y.git"
+  },
+  "author": "Max Ackerman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxackerman/s12y/issues"
+  },
+  "homepage": "https://github.com/maxackerman/s12y#readme",
+  "workspaces": [
+    "studio",
+    "web"
+  ],
+  "devDependencies": {
+  }
+}
